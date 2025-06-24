@@ -105,7 +105,7 @@ I set out to make a modular cyberdeck because I wanted to try to design somethin
 1.  Wire 4 pairs of cells in a 1p configuration by spot welding nickel strips in between the cells.
 2.  ![image](https://github.com/user-attachments/assets/f82f0284-b86a-4918-99c3-48dce45d935b)
 3.  Wire all 4 of those 1p cells in series into a 2p4s Configuration by spot welding nickel strips, this is the green section of the diagram.
-4.  Solder 5 equal-length wires of 22awg to the BMS and to the parts of the battery; these are the purple wires in the diagram.
+4.  Solder 5 equal-length wires of 18awg to the BMS and to the parts of the battery; these are the purple wires in the diagram.
 5. ![image](https://github.com/user-attachments/assets/409fbfce-569a-4919-8638-6654f78267a2)
 6.  Solder a 12awg wire to the - terminal on the BMS.
 7.  Solder a 12awg wire to the + terminal on the BMS and to the power switch, solder another 12awg wire to the other side of said switch, and press it into the case.

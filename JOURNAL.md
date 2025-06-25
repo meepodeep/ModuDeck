@@ -127,5 +127,5 @@ Today I worked on building the battery module, I finished all of the soldering, 
 ![image](https://github.com/user-attachments/assets/37b125dd-da6d-4c01-89d4-d3bc424ebffe)
 ![image](https://github.com/user-attachments/assets/1e8a2f8a-e625-4938-9e6d-6f33ef2c7e47)
 
-
+**Total time spent 10h**
 

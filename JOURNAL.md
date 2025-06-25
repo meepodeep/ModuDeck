@@ -119,3 +119,13 @@ As the title says i edited the 3d model to fit the xt60s better.
 
 **total time spent 2h**
 
+#6/24/2025 I built the battery module!
+
+Today I worked on building the battery module, I finished all of the soldering, to then realize I ordered the wrong BMS. I ordered the BMS and I will replace the current one when it arrives! The voltage regulators do work, however, and that is cool. 
+
+![image](https://github.com/user-attachments/assets/f9f924ad-4ba0-49e0-94bf-4fec4323dd1e)
+![image](https://github.com/user-attachments/assets/37b125dd-da6d-4c01-89d4-d3bc424ebffe)
+![image](https://github.com/user-attachments/assets/1e8a2f8a-e625-4938-9e6d-6f33ef2c7e47)
+
+
+

@@ -99,7 +99,7 @@ I set out to make a modular cyberdeck because I wanted to try to design somethin
   - ### Build
 1. Print battery module cover.
 2. Print battery module.
-  - ### 2p4s
+  - ### 2p4s deprecated!!! DOES NOT FIT MAKE 4s1p
     - Wiring
 - # BEFORE DOING THIS MAKE SURE ALL OF THE CELLS ARE AT THE SAME VOLTAGE SO YOU DONT EXPLODE YOU HOUSE!!
 1.  Wire 4 pairs of cells in a 1p configuration by spot welding nickel strips in between the cells.
@@ -122,7 +122,7 @@ I set out to make a modular cyberdeck because I wanted to try to design somethin
 2. Solder all of the diodes onto the PCB.
 4. Solder the Pi Pico onto the bottom of the PCB.
 5. Use [QMK Configurator](https://docs.qmk.fm/configurator_step_by_step) to configure and flash the board [here](https://config.qmk.fm/#/rart/rart75hs/LAYOUT_ansi_split_bs)
-6.  Desolder the pi picos usb port.
+6. Plug in the micro usb breakout board
 7. Solder a 28awg wire onto each of the usb pads.
 8. Solder the other ends of the wires coming from the USB to the magnetic connector in this order, from left to right, on the pin side vcc, Data-, Data+, Ground.
 9. Press the magnetic connector into its slot where the compute module clips in.
@@ -162,6 +162,7 @@ I set out to make a modular cyberdeck because I wanted to try to design somethin
 ||||||
 |Keyboard Parts	| | | | |	
 |Pi pico |	x1 |	$4 |	drive the keyboard | https://www.adafruit.com/product/4864 |
+|usb breakout| x1 |$10 | breakout pico usb | https://www.amazon.com/dp/B0DDSX113L?psc=1&smid=A13KOVEB7K7KUP&ref_=chk_typ_imgToDp|
 |Keyboard pcb	| x5 |	$35.47 |	Be a keyboard PCB |	PCBWAY |
 |Gateron Red	| x100	| $34.40 |	Be switches |	https://www.aliexpress.us/item/3256805905674117 |
 |Keycaps |	x80 |	$14.16 |	Be keycaps |	https://www.aliexpress.us/item/3256807292808339.html? |

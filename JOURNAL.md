@@ -113,13 +113,13 @@ Ok so today I was just messing with linux to try to get a pi zero to do anything
 
 **Total time spent 6h**
 
-#6/15/2025 I updated all the xt60 mounts to fit the connectors.
+# 6/15/2025 I updated all the xt60 mounts to fit the connectors.
 
 As the title says i edited the 3d model to fit the xt60s better.
 
 **total time spent 2h**
 
-#6/24/2025 I built the battery module!
+# 6/24/2025 I built the battery module!
 
 Today I worked on building the battery module, I finished all of the soldering, to then realize I ordered the wrong BMS. I ordered the BMS and I will replace the current one when it arrives! The voltage regulators do work, however, and that is cool. 
 
@@ -129,3 +129,28 @@ Today I worked on building the battery module, I finished all of the soldering, 
 
 **Total time spent 10h**
 
+# 6/26/2025 I made the keyboard and firmware!
+
+Today I built the keyboard, designed a plate for it that I didnt realize I needed, and flashed it with my own custom qmk profile!
+
+![image](https://github.com/user-attachments/assets/08c6d374-4928-4242-a1e5-b7e2d2af4303)
+
+**Total timne spent 9h**
+
+# 6/27/2025 Workerd more on the battery
+
+Today I installed the new bms, to find out that I don't have the right charger to acctually charge the batteries. I also didn't realize that one of my connections came apart and spent multiple hours chasing that down. I need to redesign the case to accommodate an XT60 so I can plug it into my bench power supply. (also blew up a voltage regulator)
+
+**Total time spent 10h**
+
+# 6/28/25 Worked on the battery, again
+
+Today I redesigned the case for the xt60 as mentioned previously, and transferred all of the parts from the previous case into the new one. Now everything works, but I can't charge while powered on, which is ok because the battery life is so good that it doesnt really matter.
+
+**Total time spent 5h**
+
+# 6/30/25 Worked on routing of cables and such.
+
+Today I formally mounted the display driver board, and started work on the magnetic connectors for the keyboard USB, however the usb hub decided to blow up so im not doing that anymore. I now have to get a new one.
+
+**Total time spent 4h**

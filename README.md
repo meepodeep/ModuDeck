@@ -33,7 +33,7 @@ I set out to make a modular cyberdeck because I wanted to try to design somethin
 
 
   - ### Wiring
-1. Press fit all of the connectors including, HDMI, XT60, and the magnetic 4pin adafruit connector.
+1. Press fit all of the connectors including, HDMI, XT60, and the magnetic 4pin magnetic connector.
    
    ![image](https://github.com/user-attachments/assets/0fd08194-80e9-40ad-867a-078b374c4c35)
    ![image](https://github.com/user-attachments/assets/30f84252-43d8-494d-9bb3-9530e62c0f8d)
@@ -84,16 +84,17 @@ I set out to make a modular cyberdeck because I wanted to try to design somethin
   - ### Lattepanda mu
 1. Print the Lattepanda compute module.
 2. Assemble the Panda, cooler, and devboard.
-3. Desolder the Barrel jack connector
-5. Solder 28awg wire to the 4 USB pins on the bottom of the furthest USB connector from the edge of the board on the port that is covered by the case.
+3. Solder 28awg wire to the 4 USB pins on the bottom of the furthest USB connector from the edge of the board on the port that is covered by the case.
 
 ![image](https://github.com/user-attachments/assets/83d93c86-eff8-4e53-b216-7cfeed9b19e8)
 
-6. Solder 18awg wire to the + and - of the barrel jack and solder them to the + and - of an xt60.
-7. Press that into the 12V supply port on the module.
-8. Solder the other ends of the wires coming from the USB to the magnetic connector in this order, from left to right, on the pin side. Ground, Data+, Data-, Vcc.
-9. Desolder the hdmi port and solder 28awg magnet wire or normal wire onto each pin (i know its annoying) and also to the corresponding pins on the board, make these wires long enough to reach the other side of the case.
-10. Press the HDMI port into the case.
+4. Solder 18awg wire to the + and - of the barrel jack and solder them to the + and - of an xt60.
+5. Press that into the 12V supply port on the module.
+6. Solder the other ends of the wires coming from the USB to the magnetic connector in this order, from left to right, on the pin side. Ground, Data+, Data-, Vcc.
+7. Use the hdmi male to female connector and decase the in end enough so it is flush with the outside of the case when you insert it.
+8. Use double sided tape or any mounting method to secure it into place
+9. plug in the hdmi
+10. Insert the magnetic connector into its port
 
 - ## Battery
   - ### Build
@@ -197,4 +198,5 @@ I set out to make a modular cyberdeck because I wanted to try to design somethin
 ||||||
 |Lattepanda Mu Compute| | | | |	
 |Lattepanda Mu with lite carrier and active cooler |	x1 |	$220.00 |	main computer |	https://www.dfrobot.com/kit-004.html|
+| male to female hdmi | x1 | $4.99 | hdmi out | https://www.amazon.com/VCE-Extension-Swivel-Adapter-Converter/dp/B07XD9JTMG?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A130RVB6PSAL46&gQT=0 |
 |Total| |	$220.00| | |		

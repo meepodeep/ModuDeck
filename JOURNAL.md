@@ -4,7 +4,7 @@ author: "Meepodeep"
 description: "Cyberdeck but Modular!"
 created_at: "2025-05-22"
 ---
-# Total time spent ~52 hours, (I think I forgot to log a few days and I dont remember what days 😢)
+# Total time spent ~109 hours, (I think I forgot to log a few days and I dont remember what days 😢)
 # 5/22/25: Starting project
 
 I started and finished the keyboard pcb design!

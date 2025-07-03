@@ -119,8 +119,9 @@ I set out to make a modular cyberdeck because I wanted to try to design somethin
 - ## Keyboard
 - ![image](https://github.com/user-attachments/assets/c7141ee0-f2cb-4047-bc69-fcb0b232d4ae)
 
-1. Solder all of the switches onto the PCB.
-2. Solder all of the diodes onto the PCB.
+1. Pop every switch into the plate 
+2. Solder all of the switches onto the PCB.
+3. Solder all of the diodes onto the PCB.
 4. Solder the Pi Pico onto the bottom of the PCB.
 5. Use [QMK Configurator](https://docs.qmk.fm/configurator_step_by_step) to configure and flash the board [here](https://config.qmk.fm/#/rart/rart75hs/LAYOUT_ansi_split_bs)
 6. Plug in the micro usb breakout board

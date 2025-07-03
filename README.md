@@ -121,9 +121,9 @@ I set out to make a modular cyberdeck because I wanted to try to design somethin
 
 1. Pop every switch into the plate 
 2. Solder all of the switches onto the PCB.
-3. Solder all of the diodes onto the PCB.
-4. Solder the Pi Pico onto the bottom of the PCB.
-5. Use [QMK Configurator](https://docs.qmk.fm/configurator_step_by_step) to configure and flash the board [here](https://config.qmk.fm/#/rart/rart75hs/LAYOUT_ansi_split_bs)
+3. Solder all of the diodes onto the PCB in the same direction.
+4. Solder the Pi Pico onto the top of the PCB upside down.
+5. Use the qmk cli app to flash the provided keyboard firmware file in the repo.
 6. Plug in the micro usb breakout board
 7. Solder a 28awg wire onto each of the usb pads.
 8. Solder the other ends of the wires coming from the USB to the magnetic connector in this order, from left to right, on the pin side vcc, Data-, Data+, Ground.
@@ -166,6 +166,7 @@ I set out to make a modular cyberdeck because I wanted to try to design somethin
 |Pi pico |	x1 |	$4 |	drive the keyboard | https://www.adafruit.com/product/4864 |
 |usb breakout| x1 |$10 | breakout pico usb | https://www.amazon.com/dp/B0DDSX113L?psc=1&smid=A13KOVEB7K7KUP&ref_=chk_typ_imgToDp|
 |Keyboard pcb	| x5 |	$35.47 |	Be a keyboard PCB |	PCBWAY |
+| diodes | x100 Buy the x100 pack | $2.99 | be diodes | https://keeb.io/products/1n4148-diodes?variant=42525667334 | 
 |Gateron Red	| x100	| $34.40 |	Be switches |	https://www.aliexpress.us/item/3256805905674117 |
 |Keycaps |	x80 |	$14.16 |	Be keycaps |	https://www.aliexpress.us/item/3256807292808339.html? |
 |Shipping |	$6.99	| | | |

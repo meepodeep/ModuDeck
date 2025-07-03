@@ -123,7 +123,7 @@ I set out to make a modular cyberdeck because I wanted to try to design somethin
 2. Solder all of the switches onto the PCB.
 3. Solder all of the diodes onto the PCB in the same direction.
 4. Solder the Pi Pico onto the top of the PCB upside down.
-5. Use the qmk cli app to flash the provided keyboard firmware file in the repo.
+5. Use the qmk cli app to flash the provided keyboard firmware file in the repo by putting the file in your keyboards folder and running qmk flash -kb modudeck -km default with the pi pico in bootloader mode plugged into the PC (you gotta be on linux or mac for this).
 6. Plug in the micro usb breakout board
 7. Solder a 28awg wire onto each of the usb pads.
 8. Solder the other ends of the wires coming from the USB to the magnetic connector in this order, from left to right, on the pin side vcc, Data-, Data+, Ground.

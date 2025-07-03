@@ -154,3 +154,9 @@ Today I redesigned the case for the xt60 as mentioned previously, and transferre
 Today I formally mounted the display driver board, and started work on the magnetic connectors for the keyboard USB, however the usb hub decided to blow up so im not doing that anymore. I now have to get a new one.
 
 **Total time spent 4h**
+
+# 7/2/2025 FINISHED IT
+
+TODAY I AM DONE!!!! I soldered the keyboard magnet connectors, replaced the dead usb hub and made some final adjustments!
+
+**Total time spent 4h**

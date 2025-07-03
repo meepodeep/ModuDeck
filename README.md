@@ -33,7 +33,7 @@ I set out to make a modular cyberdeck because I wanted to try to design somethin
 
 
   - ### Wiring
-1. Press fit all of the connectors including, HDMI, XT60, and the magnetic 4pin magnetic connector.
+1. Press fit all of the connectors including, HDMI, XT60, and the magnetic 4pin magnetic connector and glue them in once you know it will meet on the other end.
    
    ![image](https://github.com/user-attachments/assets/0fd08194-80e9-40ad-867a-078b374c4c35)
    ![image](https://github.com/user-attachments/assets/30f84252-43d8-494d-9bb3-9530e62c0f8d)
@@ -54,14 +54,14 @@ I set out to make a modular cyberdeck because I wanted to try to design somethin
 2. Assemble the cooler.
 3. Solder 28awg wire to the 4 USB pins from the Bottom of the USB 2.0 connector on the set of pins closest to the edge of the board.
 4. Remove the casing from the micro HDMI to HDMI adapter.
-5. Press the HDMI into the casing.
+5. Press the HDMI into the casing and plug it into the pi 5 and use double sided tape or hot glue to secure the big side.
 6. Solder the 5v and gnd connections from the gpio to the + and - terminals onto an xt60 connector using 18awg wire. Press the connector into the 5v part of the module.
 
   ![Raspberry-Pi-5-Pinout--1](https://github.com/user-attachments/assets/1bf2fb04-5506-45d7-aa4a-e6c779ec7be8)
   
-7. Press the 5v Xt60 into the case.
+7. Press the 5v Xt60 into the case and glue it in with ca.
 8. Solder the other ends of the wires coming from the USB to the magnetic connector in this order, from left to right, on the pin side. Ground, Data+, Data-, Vcc.
-9. Press the Magnetic connector into the case.
+9. Press the Magnetic connector into the case and use ca to secure it after removing the plastic side holes.
 10. Screw the pi into the mounting posts with m2.5 hardware.
   - ### Pi zero 2 w
 
@@ -72,7 +72,7 @@ I set out to make a modular cyberdeck because I wanted to try to design somethin
 3. Decase the USB hub.
 4. Solder 28awg wire to the pins of the USB port at the end of the hub.
 5. Solder the other ends of the wires coming from the USB to the magnetic connector in this order, from left to right, on the pin side. Ground, Data+, Data-, Vcc.
-6. Press the Magnetic connector into the case.
+6. Press the Magnetic connector into the case and use ca to secure it after removing the plastic side holes.
 7. Solder the 5V and GND connections from the GPIO to the + and - terminals onto an xt60 connector using 18awg wire.
 8. Press the connector into the 5V part of the module.
 
@@ -94,24 +94,24 @@ I set out to make a modular cyberdeck because I wanted to try to design somethin
 7. Use the hdmi male to female connector and decase the in end enough so it is flush with the outside of the case when you insert it.
 8. Use double sided tape or any mounting method to secure it into place
 9. plug in the hdmi
-10. Insert the magnetic connector into its port
+10. Insert the magnetic connector into its port and use ca to secure it after removing the plastic side holes
 
 - ## Battery
   - ### Build
 1. Print battery module cover.
 2. Print battery module.
-  - ### 2p4s deprecated!!! DOES NOT FIT MAKE 4s1p
+  - ### 2p4s deprecated!!! DOES NOT FIT MAKE 4s1p unless you are going to do a case redesign which i would very much appreciate!
     - Wiring
 - # BEFORE DOING THIS MAKE SURE ALL OF THE CELLS ARE AT THE SAME VOLTAGE SO YOU DONT EXPLODE YOU HOUSE!!
 1.  Wire 4 pairs of cells in a 1p configuration by spot welding nickel strips in between the cells.
 2.  ![image](https://github.com/user-attachments/assets/f82f0284-b86a-4918-99c3-48dce45d935b)
 3.  Wire all 4 of those 1p cells in series into a 2p4s Configuration by spot welding nickel strips, this is the green section of the diagram.
-4.  Solder 5 equal-length wires of 18awg to the BMS and to the parts of the battery; these are the purple wires in the diagram.
+4.  Solder the 5 wires coming from the JST pins of the the BMS and to the parts of the battery; these are the purple wires in the diagram.
 5. ![image](https://github.com/user-attachments/assets/409fbfce-569a-4919-8638-6654f78267a2)
 6.  Solder a 12awg wire to the - terminal on the BMS.
 7.  Solder a 12awg wire to the + terminal on the BMS and to the power switch, solder another 12awg wire to the other side of said switch, and press it into the case.
 8.  ![image](https://github.com/user-attachments/assets/1eb0b9ab-41d2-4184-9acc-a713c4eb69a5)
-9.  Follow the wiring diagram from step 8 in order to complete the battery, then make sure to insulate all of the connections with your preferred method.
+9.  Follow the wiring diagram from step 8 in order to complete the battery, then make sure to insulate all of the connections with your preferred method(I used kapton tape).
 10.  Press both XT60s into their respective ports.
 11.  Screw on the top using m3 hardware.
   - ### 4s1p
@@ -121,13 +121,13 @@ I set out to make a modular cyberdeck because I wanted to try to design somethin
 
 1. Pop every switch into the plate 
 2. Solder all of the switches onto the PCB.
-3. Solder all of the diodes onto the PCB.
-4. Solder the Pi Pico onto the bottom of the PCB.
-5. Use [QMK Configurator](https://docs.qmk.fm/configurator_step_by_step) to configure and flash the board [here](https://config.qmk.fm/#/rart/rart75hs/LAYOUT_ansi_split_bs)
+3. Solder all of the diodes onto the PCB in the same direction.
+4. Solder the Pi Pico onto the top of the PCB upside down.
+5. Use the qmk cli app to flash the provided keyboard firmware file in the repo by putting the file in your keyboards folder and running qmk flash -kb modudeck -km default with the pi pico in bootloader mode plugged into the PC (you gotta be on linux or mac for this).
 6. Plug in the micro usb breakout board
 7. Solder a 28awg wire onto each of the usb pads.
 8. Solder the other ends of the wires coming from the USB to the magnetic connector in this order, from left to right, on the pin side vcc, Data-, Data+, Ground.
-9. Press the magnetic connector into its slot where the compute module clips in.
+9. Press the magnetic connector into its slot where the compute module clips in and ca glue it in.
 10. ![image](https://github.com/user-attachments/assets/405afd9f-6964-4e02-aafa-8ef415c3af7e)
 11. Slide the keyboard in and screw it down using m3 hardware.
 - ## Display
@@ -137,6 +137,7 @@ I set out to make a modular cyberdeck because I wanted to try to design somethin
 4. Screw in m3 hardware from the top of the case in all of the holes.
 5. Plug the HDMI coming from the compute module bay into the display board.
 6. Use 18awg wire to the 12V XT60 from the battery module bay to the power pads on the driver board after desoldering the barrel plug.
+7. (you need the barrel plug for the battery)
 - ## Final Assembly
 1. Slot the compute module into the left of the cyberdeck making sure all of the connectors line up.
 2. Use 2 m3 bolts to secure the module in place.
@@ -166,6 +167,7 @@ I set out to make a modular cyberdeck because I wanted to try to design somethin
 |Pi pico |	x1 |	$4 |	drive the keyboard | https://www.adafruit.com/product/4864 |
 |usb breakout| x1 |$10 | breakout pico usb | https://www.amazon.com/dp/B0DDSX113L?psc=1&smid=A13KOVEB7K7KUP&ref_=chk_typ_imgToDp|
 |Keyboard pcb	| x5 |	$35.47 |	Be a keyboard PCB |	PCBWAY |
+| diodes | x100 Buy the x100 pack | $2.99 | be diodes | https://keeb.io/products/1n4148-diodes?variant=42525667334 | 
 |Gateron Red	| x100	| $34.40 |	Be switches |	https://www.aliexpress.us/item/3256805905674117 |
 |Keycaps |	x80 |	$14.16 |	Be keycaps |	https://www.aliexpress.us/item/3256807292808339.html? |
 |Shipping |	$6.99	| | | |

@@ -111,11 +111,15 @@ Every port on the model was the wrong size, so nothing fit. I changed all of the
 
 Ok so today I was just messing with linux to try to get a pi zero to do anything useful on the desktop. I have realized that this will be a command line machine until I can build a more useful compute module. I also started building stuff with the new HDMI slots and mounted the ports. 
 
+<img width="1884" height="2128" alt="image" src="https://github.com/user-attachments/assets/d073e69e-8a1b-476b-91d5-97f285522a58" />
+
 **Total time spent 6h**
 
 # 6/15/2025 I updated all the xt60 mounts to fit the connectors.
 
 As the title says i edited the 3d model to fit the xt60s better.
+
+<img width="3024" height="4032" alt="image" src="https://github.com/user-attachments/assets/a88e3488-0a6c-44ef-a0cb-806a3635237f" />
 
 **total time spent 2h**
 
@@ -141,17 +145,22 @@ Today I built the keyboard, designed a plate for it that I didnt realize I neede
 
 Today I installed the new bms, to find out that I don't have the right charger to acctually charge the batteries. I also didn't realize that one of my connections came apart and spent multiple hours chasing that down. I need to redesign the case to accommodate an XT60 so I can plug it into my bench power supply. (also blew up a voltage regulator)
 
+
 **Total time spent 10h**
 
 # 6/28/25 Worked on the battery, again
 
 Today I redesigned the case for the xt60 as mentioned previously, and transferred all of the parts from the previous case into the new one. Now everything works, but I can't charge while powered on, which is ok because the battery life is so good that it doesnt really matter.
 
+<img width="488" height="344" alt="image" src="https://github.com/user-attachments/assets/088d14c5-3fae-4069-8eae-6c00434ba3a0" />
+
 **Total time spent 5h**
 
 # 6/30/25 Worked on routing of cables and such.
 
 Today I formally mounted the display driver board, and started work on the magnetic connectors for the keyboard USB, however the usb hub decided to blow up so im not doing that anymore. I now have to get a new one.
+
+<img width="652" height="853" alt="image" src="https://github.com/user-attachments/assets/0a4713cc-92de-48bc-b68e-67e888dc388b" />
 
 **Total time spent 4h**
 
